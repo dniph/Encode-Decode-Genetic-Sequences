@@ -1,4 +1,4 @@
-from part_one import categorize_strand, decode_strand, encode_strand
+#from part_one import categorize_strand, decode_strand, encode_strand
 from part_two import categorize_strand as categorize_encoded_strand
 
 DNA = "GGGGGAAAGGCCCCTTTAAAACCCCTTTTTAAAACCCCCGGGAAAATTTTAAA"
@@ -11,8 +11,8 @@ STRAND_NEITHER_BASE = "CCCAAAAAGGGGCCCCCGGGGAAAACCCCGGGGGAAACCCGGGGAAAACCCCC"
 ENCODED_NEITHER_BASE = "C3A5G4C5G4A4C4G5A3C3G4A4C5"
 
 def tests():
-    part_one_tests()
-    # part_two_tests()
+    #part_one_tests()
+    part_two_tests()
     print("All tests passed!\n")
 
 def part_one_tests():
